@@ -1,0 +1,110 @@
+header{
+   background-color: rgb(3, 3, 66);
+   color: beige;
+   height: 60px;
+   font-weight: bold;
+   padding: 20px;
+}
+ul{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+li{
+    display: inline-block;
+    margin: 0 20px 0 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    word-spacing: 10px;
+}
+img{
+    height: max-content;
+    width: 100%;
+}
+.Go{
+    text-align: center;
+}
+.slider{
+    background-image: url(images/drone\ 2.jpeg);
+    width: 100%;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.abs{
+    background-color: rgb(0, 0, 54);
+    padding: 10px;
+    width: 70%;
+    position: absolute;
+    margin: 0 15%;
+    top: 40%;
+    height: 250px;
+    opacity: 50%;
+    border-radius: 5px;
+}
+.rel{
+    color: white;
+    Padding: 10px;
+    width: 60%;
+    position: relative;
+    margin: auto;
+    top: 30%;
+    height: 180px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.relSpan{
+    text-align: left;
+}
+.relSpan span{
+    padding: 10px;
+    color: rgb(1, 1, 61);
+    background-color: white;
+}
+.relSpan .First{
+    background-image: linear-gradient(rgb(2, 2, 84) 50%, white);
+    color: white;
+}
+.rel form{
+padding: 10px 0;
+width: 100%;
+text-align: left;
+}
+.rel form input{
+    width: 10.6%;
+    height: 30px;
+}
+.fourcolsection{
+    position: relative;
+    bottom: 80px;
+}
+.fourCol{
+    padding: 10px 0;
+    width: 70%;
+    margin: 0 15%;
+    display: inline-flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.fourCol div{
+    background-color: white;
+    padding: 10px 0;
+    width: 23%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px rgb(196, 194, 194);
+}
+.fourCol img{
+    width: 50%;
+}
+.twocolsection{
+    width: 50%;
+    display: inline-flex;
+    justify-content: space-between;
+    padding-left: 25%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;    
+}
